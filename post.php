@@ -42,7 +42,7 @@ $email = $_POST["email"];
    if(! $conn ) {
       die('Could not connect: ' . mysql_error());
    }
-   
+
    $sql = "INSERT INTO person ".
       "(Name,Email) ".
       "VALUES ( '".$name."','".$email."' )";
