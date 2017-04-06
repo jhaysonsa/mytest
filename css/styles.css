@@ -1,0 +1,27 @@
+body
+{
+    
+    background:#ffff;
+}
+
+
+ input[type="text"] {
+    position: relative;
+}
+
+ input[type="text"]:before {
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    content: "\f007";
+}
+
+.errspan {
+    float: right;
+    margin-right: 6px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+    color: red;
+}
