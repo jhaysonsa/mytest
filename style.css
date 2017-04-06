@@ -78,6 +78,7 @@ button{
     position:absolute;
 bottom: 10px;
 left: 75px;
+    border:none;
 }
 #formget
 {
