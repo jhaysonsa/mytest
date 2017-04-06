@@ -36,7 +36,7 @@ $email = $_POST["email"];
    $dbuser = 'root';
    $dbpass = '';
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-   /* test 1 */
+   /* test 1asdf */
    $name=$_POST['name'];
    $email=$_POST['email'];
    if(! $conn ) {
