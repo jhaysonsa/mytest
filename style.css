@@ -1,16 +1,17 @@
 body{
 font-family: 'Raleway', sans-serif;
-
+background-color:black;
 }
 #main
 {
 top:10%;
 left:20%;
 position:absolute;
-width: 400px;
-height: 360px;
-border: 2px solid gray;
+width: 410px;
+height: 300px;
+//border: 2px solid gray;
 border-radius: 10px;
+    background-color:white;
 }
 label
 {
@@ -20,20 +21,23 @@ font-size: 14px;
 font-weight: bold;
 }
 input[type=text]{
-width: 100%;
-height: 40px;
+width: 330px;
+height: 45px;
 padding: 5px;
-margin-bottom: 25px;
-margin-top: 5px;
-border: 2px solid #ccc;
+margin-bottom: 23px;
+//margin-top: 5px;
+// border: 2px solid #ccc;
 color: #4f4f4f;
 font-size: 16px;
 border-radius: 5px;
-    background: #ededed;
+background: #ededed;
+    border:none;
+    border-color: transparent;
+    margin-left:36px;
 }
 h2
 {
-background-color: #FEFFED;
+//background-color: #FEFFED;
 padding: 30px 35px;
 margin:0px 0px -7px 0px;
 text-align: center;
@@ -75,9 +79,10 @@ button{
     background-image: url(img/button.jpg);
     width:148px;
         height:45px;
-    position:absolute;
+
 bottom: 10px;
-left: 75px;
+margin-left:36px;
+
     border:none;
 }
 #formget
@@ -85,4 +90,7 @@ left: 75px;
 float: right;
 margin-right: 25%;
 margin-top: 4%;
+}
+form{
+    margin:0px;
 }
