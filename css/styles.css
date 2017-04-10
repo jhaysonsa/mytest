@@ -1,7 +1,7 @@
 body
 {
 
-    background:#ffff;
+    background:#fff;
 }
 
 
@@ -10,9 +10,9 @@ body
 }
 
  input[type="text"]:before {
-    font-family: 'FontAwesome';
+     font-family: 'FontAwesome', serif;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: -5px;
     content: "\f007";
 }
@@ -23,5 +23,5 @@ body
     margin-top: -20px;
     position: relative;
     z-index: 2;
-    color: red;
+    color: red;/*asdfasdf*/
 }
